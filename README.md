@@ -7,7 +7,8 @@ At the end of this laboratory activity, the student should be able to:
 3. compute array statistics and use Boolean conditions to select elements; and
 4. save computed NumPy arrays as .npy files.
 
-Problem A : REPRODUCIBLE NORMALIZATION PROBLEM
+# Problem A : REPRODUCIBLE NORMALIZATION PROBLEM
+
 Create a reproducible random 5×5 integer ndarray named X. Use the following two statements before
 performing any calculation:
 
@@ -19,7 +20,8 @@ computing the Z-scores through vectorized operations. Finally, it displays both 
 the normalized data has a mean of 0 and a standard deviation close to 1. The normalized array 
 is then saved to a file named X_normalized.npy using np.save().
 
- Problem B : CUBES DIVISIBLE BY 4 PROBLEM
+# Problem B : CUBES DIVISIBLE BY 4 PROBLEM
+
 Using NumPy, create the first 100 positive integers, cube every element, and reshape the result into a
 10 × 10 ndarray named C. Thus, C begins with 13 and ends with 1003. 
 Use a Boolean condition on C to obtain every cubed value divisible by 4. Store the selected values in
@@ -32,7 +34,8 @@ that are divisible by 4 and stores them in a one-dimensional array named divide_
 confirm that C has a shape of (10, 10), that 50 values were extracted, and that the values range from 8 to 1,000,000. 
 The filtered array is then saved as div_by_4.npy using np.save().
 
-Problem C : ABOVE-MEAN SQUARES PROBLEM
+# Problem C : ABOVE-MEAN SQUARES PROBLEM
+
 Create a 6 × 6 ndarray named S containing the squares of the first 36 positive integers in increasing
 row-major order. Compute the mean of all elements of S and store it in S mean. Then use Boolean
 filtering to select only the elements strictly greater than S mean. Store these values in above mean.
